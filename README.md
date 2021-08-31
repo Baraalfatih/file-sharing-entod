@@ -120,4 +120,4 @@ published by the Free Software Foundation, either version 3 of the License, or
 
 ##
 
-   **Star this Repo if you Liked it ⭐⭐⭐**
+   **Kasih Bintang Repo ini jika Anda menyukainya ⭐⭐⭐**
