@@ -21,35 +21,35 @@
 </p>
 
 
-Telegram Bot to store Posts and Documents and it can Access by Special Links.
-I Guess This Will Be Usefull For Many People.....🤪. 
+Telegram Bot untuk menyimpan Posting dan Dokumen dan dapat Diakses melalui Tautan Khusus.
+Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.....🤪. 
 
 ##
 
-**If you need any more modes in repo or If you find out any bugs, mention in [@marikitamerapat ](https://www.telegram.dog/marikitamerapat)**
+**Jika Anda memerlukan mode lagi dalam repo atau Jika Anda menemukan bug, sebutkan di [@marikitamerapat ](https://www.telegram.dog/marikitamerapat)**
 
-### Features
-- Fully customisable.
-- Customisable welcome messages.
-- More than one Posts in One Link.
-- Can be deployed on heroku directly.
+### Fitur
+- Dapat disesuaikan sepenuhnya.
+- Pesan selamat datang yang dapat disesuaikan.
+- Lebih dari satu Posting dalam Satu Tautan.
+- Dapat digunakan di heroku secara langsung.
 
-### Setup
+### Mempersiapkan
 
-- Add the bot to Database Channel with all permission
-- Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub 
+- Tambahkan bot ke Saluran Basis Data dengan semua izin
+- Tambahkan bot ke saluran ForceSub sebagai Admin dengan Undang Pengguna melalui Izin Tautan jika Anda mengaktifkan ForceSub 
 
 ##
-### Installation
-#### Deploy on Heroku 💜
+### Instalasi
+## Deploy di Heroku 💜
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 <a href="https://youtu.be/LCrkRTMkmzE">
   <img src="https://img.shields.io/badge/How%20to-Deploy-purple?logo=youtube" width="147">
 </a><br>
-**Check This Tutorial Video on YouTube for any Help**<br>
-**Thanks to [Okek](https://t.me/Skuyykek69) and his [Group Support](https://t.me/marikitamerapat) for this Video**
+**Periksa Video Tutorial Ini di YouTube untuk Bantuan apa pun**<br>
+**Thanks to [Okek](https://t.me/Skuyykek69) and his [Group Support](https://t.me/marikitamerapat)**
 
-#### Deploy in your VPS
+## Deploy di VPS Anda
 ````bash
 git clone https://github.com/skuyykek69/File-Sharing-Bot
 cd File-Sharing-Bot
@@ -58,39 +58,38 @@ pip3 install -r requirements.txt
 python3 main.py
 ````
 
-### Admin Commands
+### Perintah Admin
 
 ```
-/start - start the bot or get posts
+/start - mulai bot atau dapatkan postingan
 
-/batch - create link for more than one posts
+/batch - buat tautan untuk lebih dari satu posting
 
-/genlink - create link for one post
+/genlink - buat tautan untuk satu posting
 
 ```
 
-### Variables
+### Variable
 
-* `API_HASH` Your API Hash from my.telegram.org
-* `API_ID` Your API ID from my.telegram.org
-* `TG_BOT_TOKEN` Your bot token from @BotFather
-* `OWNER_ID` Must enter Your Telegram Id
-* `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
-* `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
+* `API_HASH` Hash API Anda dari my.telegram.org
+* `API_ID` ID API Anda dari my.telegram.org
+* `TG_BOT_TOKEN` Token bot Anda dari @BotFather
+* `OWNER_ID` Harus memasukkan Id Telegram Anda
+* `CHANNEL_ID` ID Saluran Anda, misal:- -100xxxxxxxx
+* `ADMINS` Optional: Daftar user_id yang dipisahkan spasi dari Admin, mereka hanya dapat membuat tautan
 * `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/shahsad-klr/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 
 ### Extra Variables
 
-* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/shahsad-klr/File-Sharing-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
+* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/skuyykek69/File-Sharing-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
 * `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
-
 ### Fillings
 #### START_MESSAGE
 
-* `{first}` - User first name
-* `{last}` - User last name
-* `{id}` - User ID
+* `{first}` - Nama depan pengguna
+* `{last}` - Nama belakang pengguna
+* `{id}` - id pengguna
 * `{mention}` - Mention the user
 * `{username}` - Username
 
