@@ -1,4 +1,4 @@
-# File-sharing-Bot
+# File-sharing-Bot <img align="center" src="https://visitor-badge.laobi.icu/badge?page_id=Skuyykek69/File-Sharing-Bot" width=50/>
 
 <p align="center">
   <a href="https://www.python.org">
@@ -43,10 +43,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.....🤪.
 ### Instalasi
 ## Deploy di Heroku 💜
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
-<a href="https://youtu.be/LCrkRTMkmzE">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-purple?logo=youtube" width="147">
-</a><br>
-**Periksa Video Tutorial Ini di YouTube untuk Bantuan apa pun**<br>
+
 **Thanks to [Okek](https://t.me/Skuyykek69) and his [Group Support](https://t.me/marikitamerapat)**
 
 ## Deploy di VPS Anda
