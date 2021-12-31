@@ -1,4 +1,4 @@
-#(©) KEK-Projects
+#(©) JACK-OFFICEE
 
 import asyncio
 from pyrogram import Client, filters, __version__
