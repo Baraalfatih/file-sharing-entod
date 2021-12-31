@@ -1,4 +1,4 @@
-#(©) KEK-Projects
+#(©) JACK-OFFICEE
 
 import base64
 import re
